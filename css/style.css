@@ -7,13 +7,14 @@
 }
 
 body{
-  font-family: Monospaced;
+  background-color: bisque;
 }
 
 nav{
-  background: #0082e6;
+  background: #6C00FF;
   height: 80px;
   width: 100%;
+  padding-left: 12px;
 }
 
 label.logo{
@@ -33,6 +34,7 @@ nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
+  
 }
 
 nav ul li a{
@@ -41,9 +43,275 @@ nav ul li a{
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  list-style: none;
 }
 
-a.active, a:hover{
-  background: #1b9bff;
+a:hover{
+  background: #feffff;
   transition: .5s;
+  color: white;
 }
+
+
+.logo1{
+  /* background-color: yellow; */
+  height: 430px;
+  background-image: url(../img/energysave.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: center;
+
+}
+
+.pic{
+  width: 190px;
+}
+
+.logoh1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  /* font-size: 37px; */
+}
+
+.pty{
+  /* color: white; */
+  /* font-size: 27px; */
+  font-style: italic;
+}
+
+#prof{
+  font-size: 38px;
+  padding: 35px 20px 15px 97px;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+#lan1{
+  width: 450px;
+  border-radius: 95px;
+  border: 2px solid;
+}
+
+.container2{
+  background-color: blue;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #DD4B39;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #ff5e14;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #ff5e14;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
+
+/* <-----------About styles-----------> */
+
+.about_title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  padding-left: 525px;
+  background-color: yellow;
+  font-weight: bolder;
+}
+
+.img1{
+  border-radius: 195px;
+  border: 2px solid;
+  width: 350px;
+
+}
+
+#about1{
+  font-size: 20px;
+  /* background-color: red; */
+  padding: 24px;
+  padding-top: 22px;
+}
+
+#mission{
+  font-size: 32px;
+  /* background-color: red; */
+  padding: 24px;
+  text-align: center;
+}
+
+.vision{
+  border-radius: 200px;
+  border: 2px solid;
+  width: 315px;
+  height: 275px;
+
+}
+
+
+/* <-----------Contact styles-----------> */
+
+.form-control{
+  max-width: 650px;
+}
+
+/* .map{
+  border: 2px solid #6C00FF;
+} */
